@@ -1,5 +1,5 @@
 <?php
-  $today = date('Y-m-d H:i:s l');
+  $name = 'Elma <script>alert(1);</script>';
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +9,6 @@
   <title>PHP Practice</title>
 </head>
 <body>
-  <p>Hello, PHP!</p>
-  <p>Today: <?= $today ?></p>
+  <p>Hello, <?= htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?>!</p>
 </body>
 </html>
