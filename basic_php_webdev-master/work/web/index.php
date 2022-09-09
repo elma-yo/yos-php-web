@@ -2,6 +2,8 @@
 
 require('../app/functions.php');
 
+$color = 'transparent';
+
 include('../app/_parts/_header.php');
 
 ?>
