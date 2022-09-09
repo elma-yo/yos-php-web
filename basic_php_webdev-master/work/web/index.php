@@ -2,8 +2,6 @@
 
 require('../app/functions.php');
 
-// $color = filter_input(INPUT_COOKIE, 'color') ?? 'transparent';
-
 include('../app/_parts/_header.php');
 
 ?>
@@ -13,6 +11,7 @@ include('../app/_parts/_header.php');
   <label><input type="radio" name="color" value="pink"> Pink</label>
   <label><input type="radio" name="color" value="gold"> Gold</label>
   <button>Send</button>
+  <a href="reset.php">[reset]</a>
 </form>
 
 <?php
